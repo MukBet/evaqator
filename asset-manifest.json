@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/evaqator/static/css/main.81c73c67.css",
+    "main.css": "/evaqator/static/css/main.b4e2c217.css",
     "main.js": "/evaqator/static/js/main.98c512fc.js",
     "static/js/453.fd5d4e14.chunk.js": "/evaqator/static/js/453.fd5d4e14.chunk.js",
     "static/media/service_c.webp": "/evaqator/static/media/service_c.1bd37c158e65fedfc2d2.webp",
     "static/media/service_b.webp": "/evaqator/static/media/service_b.76eac4e63922b0d5d8ac.webp",
     "static/media/service_a.webp": "/evaqator/static/media/service_a.5f881ef12303346a4868.webp",
     "index.html": "/evaqator/index.html",
-    "main.81c73c67.css.map": "/evaqator/static/css/main.81c73c67.css.map",
+    "main.b4e2c217.css.map": "/evaqator/static/css/main.b4e2c217.css.map",
     "main.98c512fc.js.map": "/evaqator/static/js/main.98c512fc.js.map",
     "453.fd5d4e14.chunk.js.map": "/evaqator/static/js/453.fd5d4e14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81c73c67.css",
+    "static/css/main.b4e2c217.css",
     "static/js/main.98c512fc.js"
   ]
 }
