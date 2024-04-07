@@ -1,0 +1,37 @@
+
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic);
+
+.info-block {
+    background-color: #f0f0f0; /* Светлый фон для контраста */
+    padding: 20px; /* Отступы вокруг текста */
+    /* max-width: 400px; Максимальная ширина блока */
+    border-radius: 10px; /* Скругленные углы */
+  }
+  
+  .lafeta-line {
+    font-family: 'Tenor Sans', sans-serif;
+    color: rgb(182, 49, 49); /* Цвет текста */
+    margin: 10px 0; /* Отступы между строками */
+  }
+  
+  .lafeta-first {
+    font-size: 20px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    color: #5ca4f1; /* Синий цвет */
+  }
+  
+  .lafeta-second {
+    margin-top: 1rem;
+    font-size: 20px; /* Немного меньше размер шрифта */
+    font-weight: bold; 
+    color: #02390e; /* Зеленый цвет */
+  }
+  
+  .lafeta-third {
+    margin-top: 2rem;
+    font-size: 20px; /* Размер шрифта как у второй строки */
+    font-weight: bold; 
+    text-transform: uppercase;
+    text-decoration: underline; /* Подчеркнутый текст */
+    color: #7e101b; /* Красный цвет */
+  }

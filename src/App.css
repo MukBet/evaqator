@@ -35,3 +35,16 @@
     transform: rotate(360deg);
   }
 }
+
+.Flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Расстояние между элементами */
+  justify-content: center; /* Выравнивание элементов по центру горизонтально */
+  align-items: center; /* Выравнивание элементов по центру вертикально (если нужно) */
+}
+
+.Flex-container-item {
+  flex: 1 1 200px; /* Минимальная ширина блока */
+  max-width: 500px; /* Максимальная ширина блока */
+}

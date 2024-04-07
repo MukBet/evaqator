@@ -1,10 +1,14 @@
 import React from 'react';
 
+import './App.css'; // Импортируем стили
 import serviceImageA from './HeaderImage/Images/service_a.webp';
 import serviceImageB from './HeaderImage/Images/service_b.webp';
 import serviceImageC from './HeaderImage/Images/service_c.webp';
 import HeaderImageList from './HeaderImage/HeaderImageList';
-import Header from './Header';
+import Header from './Header/Header.js';
+import Lafeta from './Lafeta/Lafeta.js';
+import Order from './Order/Order.js';
+import Timing from './Timing/Timing.js';
 
 function App() {
 
@@ -32,6 +36,17 @@ function App() {
         </a> */}
         <Header></Header>
         <HeaderImageList images={images} />
+        <div className="Flex-container">
+          <div className="Flex-container-item">
+            <Lafeta></Lafeta>
+          </div>
+          <div className="Flex-container-item">
+            <Timing></Timing>
+          </div>
+          <div className="Flex-container-item">
+            <Order></Order>
+          </div>
+        </div>
       </header>
     </div>
   );
