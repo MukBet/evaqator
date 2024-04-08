@@ -13,7 +13,7 @@ body {
   margin-top: 0px;
   padding-top: 0%;
   height: 100%; /* Убедитесь, что html и body занимают всю высоту страницы */
-  margin: 0; /* Убираем поля */
+  margin: 0 !important; /* Убираем поля */
   padding: 0; /* Убираем отступы */
   background-color: #b5e1e1 !important;
 }
