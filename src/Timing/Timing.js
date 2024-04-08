@@ -3,11 +3,14 @@ import Card from 'react-bootstrap/Card';
 const timingStyles = {
     container: {
       display: 'flex',
-      justifyContent: 'left',
+      justifyContent: 'center',
       padding: '15px', // Отступы для контейнера, чтобы картинки не касались краев экрана
       paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
       borderRadius: '15px', /* Скругленные углы для контейнера галереи */
+    },
+    textSise: {
+      fontSize: '2.5rem', /* Большой размер шрифта для заголовка */
     }
   };
 
@@ -24,7 +27,7 @@ function Timing() {
         >
           {/* <Card.Header>Header</Card.Header> */}
           <Card.Body>
-            <Card.Title> Час подачі авто по місту до 30 хв,</Card.Title>
+            <Card.Title style={timingStyles.textSise}> Час подачі авто по місту до 30 хв,</Card.Title>
             <Card.Text>
             за відсутності заторів
             </Card.Text>

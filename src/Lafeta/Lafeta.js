@@ -5,19 +5,18 @@ import './Lafeta.css'; // Импортируем стили
 const lafetaStyles = {
     container: {
       display: 'flex',
-      justifyContent: 'left',
+      justifyContent: 'center',
       gap: '20px', // Промежуток между картинками
       padding: '15px', // Отступы для контейнера, чтобы картинки не касались краев экрана
       paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
-     
-    }
+    },
   };
 
 function Lafeta() {
   return (
     <div style={lafetaStyles.container}>
-    <Card style={{ width: '30rem' }} border="info" className="info-block">
+    <Card style={{ width: '27rem', background: '#2c3e50'  }} className="info-block">
       <Card.Body>
         <div className="lafeta-line lafeta-first" >Додаткова лафета в наявності</div>
         <div style={{textAlign:'right'}} className="lafeta-line lafeta-second">Оренда лафети</div>

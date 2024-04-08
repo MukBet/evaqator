@@ -35,6 +35,13 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width: 768px) { /* Максимальная ширина для мобильных устройств */
+  .App {
+    /* Здесь могут быть стили специфичные для мобильных устройств */
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .Flex-container {
   display: flex;

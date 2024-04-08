@@ -7,15 +7,15 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-top: 0px;
   padding-top: 0%;
   height: 100%; /* Убедитесь, что html и body занимают всю высоту страницы */
-  margin: 0; /* Убираем поля */
+  margin: 0 !important; /* Убираем поля */
   padding: 0; /* Убираем отступы */
-  background-color: #b5e1e1;
+  background-color: #b5e1e1 !important;
 }
 
 code {

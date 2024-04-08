@@ -9,6 +9,9 @@ const orderStyles = {
       paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
       borderRadius: '15px', /* Скругленные углы для контейнера галереи */
+    },
+    textSise: {
+      fontSize: '1.5rem', /* Большой размер шрифта для заголовка */
     }
   };
   
@@ -16,9 +19,9 @@ function Order() {
   return (
     
     <div style={orderStyles.container}>
-    <Card style={{ width: '25rem' }}>
+    <Card style={orderStyles.textSise}>
       <Card.Header>Як замовити евакуатор !?</Card.Header>
-      <ListGroup variant="flush">
+      <ListGroup variant="flush" style={{textAlign:'left'}}>
         <ListGroup.Item>1. Зателефонувати за номером +380508518834</ListGroup.Item>
         <ListGroup.Item>2. Вказати точну адресу куди потрібен евакуатор</ListGroup.Item>
         <ListGroup.Item>3. Назвати марку авто ( до 2,5 тонн )</ListGroup.Item>
