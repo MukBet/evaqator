@@ -9,6 +9,8 @@ import Header from './Header/Header.js';
 import Lafeta from './Lafeta/Lafeta.js';
 import Order from './Order/Order.js';
 import Timing from './Timing/Timing.js';
+import Price from './Price/Price.js';
+import AdditionalService from './Additional/AdditionalService.js';
 
 function App() {
 
@@ -45,6 +47,12 @@ function App() {
           </div>
           <div className="Flex-container-item">
             <Order></Order>
+          </div>
+          <div className="Flex-container-item">
+            <Price></Price>
+          </div>
+          <div className="Flex-container-item">
+            <AdditionalService></AdditionalService>
           </div>
         </div>
       </header>

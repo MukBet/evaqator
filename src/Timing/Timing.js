@@ -22,7 +22,7 @@ function Timing() {
           bg="info"
           key="Info"
           text='white'
-          style={{ width: '30rem' }}
+          style={{ width: '27rem' }}
           className="mb-2"
         >
           {/* <Card.Header>Header</Card.Header> */}
