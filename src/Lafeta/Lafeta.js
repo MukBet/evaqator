@@ -8,7 +8,7 @@ const lafetaStyles = {
       justifyContent: 'center',
       gap: '20px', // Промежуток между картинками
       padding: '15px', // Отступы для контейнера, чтобы картинки не касались краев экрана
-      paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
+      paddingTop: '30px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
     },
   };
@@ -18,9 +18,9 @@ function Lafeta() {
     <div style={lafetaStyles.container}>
     <Card style={{ width: '27rem', background: '#2c3e50'  }} className="info-block">
       <Card.Body>
-        <div className="lafeta-line lafeta-first" >Додаткова лафета в наявності</div>
-        <div style={{textAlign:'right'}} className="lafeta-line lafeta-second">Оренда лафети</div>
-        <div style={{textAlign:'right'}} className="lafeta-line lafeta-third mb-2 ">Вантажні перевезення</div>
+        <div style={{textAlign:'center'}} className="lafeta-line lafeta-first" >Додаткова лафета в наявності</div>
+        <div style={{textAlign:'center'}} className="lafeta-line lafeta-second">Оренда лафети</div>
+        <div style={{textAlign:'center'}} className="lafeta-line lafeta-third mb-2 ">Вантажні перевезення</div>
        
         {/* <Card.Text>
           Some quick example text to build on the card title and make up the
