@@ -19,8 +19,6 @@ function Lafeta() {
     <Card style={{ width: '27rem', background: '#2c3e50'  }} className="info-block">
       <Card.Body>
         <div style={{textAlign:'center'}} className="lafeta-line lafeta-first" >Додаткова лафета в наявності</div>
-        <div style={{textAlign:'center'}} className="lafeta-line lafeta-second">Оренда лафети</div>
-        <div style={{textAlign:'center'}} className="lafeta-line lafeta-third mb-2 ">Вантажні перевезення</div>
        
         {/* <Card.Text>
           Some quick example text to build on the card title and make up the
@@ -29,6 +27,16 @@ function Lafeta() {
         <Card.Link href="#">Card Link</Card.Link>
         <Card.Link href="#">Another Link</Card.Link> */}
       </Card.Body>
+      <Card style={{ width: '27rem', background: '#2c3e50'  }} className="info-block">
+      <Card.Body>
+        <div style={{textAlign:'center'}} className="lafeta-line lafeta-second">Оренда лафети</div>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '27rem', background: '#2c3e50'  }} className="info-block">
+      <Card.Body>
+        <div style={{textAlign:'center'}} className="lafeta-line lafeta-third mb-2 ">Вантажні перевезення</div>
+      </Card.Body>
+    </Card>
     </Card>
     </div>
   );
