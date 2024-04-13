@@ -9,10 +9,23 @@ const orderStyles = {
       paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
       borderRadius: '15px', /* Скругленные углы для контейнера галереи */
-      width: '30rem'
+      width: '30rem',
+      backgroundColor: '#a5e1e1',
     },
     textSise: {
       fontSize: '1.5rem', /* Большой размер шрифта для заголовка */
+    },
+    header: {
+      background: 'linear-gradient(145deg, #2c3e50, #34495e)',
+      color: 'white',
+    },
+    contentRow: {
+      border: '1px solid #a5e1e1',
+      background: 'linear-gradient(145deg, #2c3e50, #34495e)',
+      color: 'white',
+      textAlign:'left',
+    },
+    content: {
     }
   };
   
@@ -21,15 +34,15 @@ function Order() {
     
     <div style={orderStyles.container}>
     <Card style={orderStyles.textSise}>
-      <Card.Header>Як замовити евакуатор !?</Card.Header>
-      <ListGroup variant="flush" style={{textAlign:'left'}}>
-        <ListGroup.Item>1. Зателефонувати за номером +380508518834</ListGroup.Item>
-        <ListGroup.Item>2. Вказати точну адресу куди потрібен евакуатор</ListGroup.Item>
-        <ListGroup.Item>3. Назвати марку авто ( до 2,5 тонн )</ListGroup.Item>
-        <ListGroup.Item>4. Вказати чи є складність завантаження</ListGroup.Item>
-        <ListGroup.Item>5. Назвати адресу куди потрібно доставити</ListGroup.Item>
-        <ListGroup.Item>6. Назвати марку авто ( до 2,5 тонн )</ListGroup.Item>
-        <ListGroup.Item>7. Очікувати на евакуатор</ListGroup.Item>
+      <Card.Header style={orderStyles.header}>Як замовити евакуатор !?</Card.Header>
+      <ListGroup variant="flush" style={orderStyles.content}>
+        <ListGroup.Item style={orderStyles.contentRow}>1. Зателефонувати за номером +380508518834</ListGroup.Item>
+        <ListGroup.Item style={orderStyles.contentRow}>2. Вказати точну адресу куди потрібен евакуатор</ListGroup.Item>
+        <ListGroup.Item style={orderStyles.contentRow}>3. Назвати марку авто ( до 2,5 тонн )</ListGroup.Item>
+        <ListGroup.Item style={orderStyles.contentRow}>4. Вказати чи є складність завантаження</ListGroup.Item>
+        <ListGroup.Item style={orderStyles.contentRow}>5. Назвати адресу куди потрібно доставити</ListGroup.Item>
+        <ListGroup.Item style={orderStyles.contentRow}>6. Назвати марку авто ( до 2,5 тонн )</ListGroup.Item>
+        <ListGroup.Item style={orderStyles.contentRow}>7. Очікувати на евакуатор</ListGroup.Item>
       </ListGroup>
     </Card>
     </div>
