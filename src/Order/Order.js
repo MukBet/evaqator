@@ -44,8 +44,7 @@ function Order() {
         <ListGroup.Item style={orderStyles.contentRow}>3. Назвати марку авто ( до 2,5 тонн )</ListGroup.Item>
         <ListGroup.Item style={orderStyles.contentRow}>4. Вказати чи є складність завантаження</ListGroup.Item>
         <ListGroup.Item style={orderStyles.contentRow}>5. Назвати адресу куди потрібно доставити</ListGroup.Item>
-        <ListGroup.Item style={orderStyles.contentRow}>6. Назвати марку авто ( до 2,5 тонн )</ListGroup.Item>
-        <ListGroup.Item style={orderStyles.contentRow}>7. Очікувати на евакуатор</ListGroup.Item>
+        <ListGroup.Item style={orderStyles.contentRow}>6. Очікувати на евакуатор</ListGroup.Item>
       </ListGroup>
     </Card>
     </div>

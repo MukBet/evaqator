@@ -50,7 +50,7 @@ function Price() {
               &#10148;<span style={{marginLeft:'15px'}}>Навантаження до 2 тонн.</span> 
               </h4>
               <h4 class="info-row-price">
-              &#10148;<span style={{marginLeft:'15px'}}>800 грн /доба , залогова сума 200&#128178; (повертається при отриманні лафети).</span> 
+              &#10148;<span style={{marginLeft:'15px'}}>800 грн /доба , залогова сума 200<span>&#128178;</span> (повертається при отриманні лафети).</span> 
               </h4>
               <h4 class="info-row-price">
               &#10148;<span style={{marginLeft:'15px'}}>Паспортні дані.</span> 
