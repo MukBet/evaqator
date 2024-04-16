@@ -1,4 +1,5 @@
 import './Price.css'; 
+import Card from 'react-bootstrap/Card';
 const priceStyles = {
   container: {
     justifyContent: 'center',
@@ -36,23 +37,28 @@ function Price() {
             </h4>
           </div>
           <br></br>
-          <div class="intro">
-            <h2>Оренда лафети</h2>
-          </div>
-          <div style={{ textAlign:'left'}}>
-            <h4 class="info-row-price">
-             &#129086; 4м/2,2м.
-            </h4>
-            <h4 class="info-row-price">
-              &#129086; Навантаження до 2 тонн.
-            </h4>
-            <h4 class="info-row-price">
-             &#129086; 800 грн /доба , залогова сума 200 $ (повертається при отриманні лафети).
-            </h4>
-            <h4 class="info-row-price">
-              &#129086; Паспортні дані.
-            </h4>
-          </div>
+          <Card style={{ width: '27rem', background: '#2c3e50', color:'white', textAlign:'justify' }} className="info-block">
+            <Card.Body>
+            <div class="intro">
+              <h2 style={{color:'#e0f5e4'}}>Оренда лафети</h2>
+            </div><br></br>
+            <div style={{ textAlign:'justify'}}>
+              <h4 class="info-row-price">
+              &#10148;<span style={{marginLeft:'15px'}}>4м/2,2м.</span>
+              </h4>
+              <h4 class="info-row-price">
+              &#10148;<span style={{marginLeft:'15px'}}>Навантаження до 2 тонн.</span> 
+              </h4>
+              <h4 class="info-row-price">
+              &#10148;<span style={{marginLeft:'15px'}}>800 грн /доба , залогова сума 200&#128178; (повертається при отриманні лафети).</span> 
+              </h4>
+              <h4 class="info-row-price">
+              &#10148;<span style={{marginLeft:'15px'}}>Паспортні дані.</span> 
+              </h4>
+            </div>
+            </Card.Body>
+          </Card>
+          
         </div>
       </>
     );

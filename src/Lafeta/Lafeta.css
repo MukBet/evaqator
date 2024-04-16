@@ -3,7 +3,6 @@
 
 .info-block {
     background-color: #f0f0f0; /* Светлый фон для контраста */
-    padding: 10px; /* Отступы вокруг текста */
     /* max-width: 400px; Максимальная ширина блока */
     border-radius: 10px; /* Скругленные углы */
   }
@@ -17,24 +16,46 @@ font-weight: initial;
   }
   
   .lafeta-first {
+    margin-top: 1.5rem;
     font-size: 24px; /* Размер шрифта */
     font-weight: bold; /* Жирный шрифт */
     color: #cee0f3; /* Синий цвет */
-    margin-bottom: 2rem;
   }
   
   .lafeta-second {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-size: 24px; /* Немного меньше размер шрифта */
     font-weight: bold; 
     color: #e0f5e4; /* Зеленый цвет */
   }
   
   .lafeta-third {
-    margin-top: 2rem;
-    font-size: 20px; /* Размер шрифта как у второй строки */
+    margin-top: 1.5rem;
+    font-size: 24px; /* Размер шрифта как у второй строки */
     font-weight: bold; 
-    text-transform: uppercase;
-    text-decoration: underline; /* Подчеркнутый текст */
+    /*text-transform: uppercase;
+    /*text-decoration: underline;  Подчеркнутый текст */
     color: #f4e1e3; /* Красный цвет */
   }
+  
+    /* Медиа-запрос для мобильных устройств */
+    @media (max-width: 500px) {
+      .lafeta {
+        justify-content: center;
+        flex-direction: column; /* Элементы теперь расположены вертикально */
+        align-items: center; /* Центрирование элементов по горизонтали */
+        padding: 15px; /* Отступы для контейнера, чтобы картинки не касались краев экрана*/
+        padding-top: 10px;/* Добавляем прокрутку, если картинки не помещаются*/
+        overflow: hidden; /* Скрываем всё, что выходит за пределы блока */
+      }
+  
+    }
+
+    .lafeta{
+      display: flex;
+      justify-content: center;
+      gap: 20px; /* Промежуток между ...*/
+      padding: 15px; /* Отступы для контейнера, чтобы картинки не касались краев экрана*/
+      padding-top: 10px;/* Добавляем прокрутку, если картинки не помещаются*/
+      overflow: hidden; /* Скрываем всё, что выходит за пределы блока */
+    }

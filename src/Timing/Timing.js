@@ -27,7 +27,7 @@ function Timing() {
         >
           {/* <Card.Header>Header</Card.Header> */}
           <Card.Body>
-            <Card.Title style={timingStyles.textSise}> Час подачі авто по місту до 30 хв,</Card.Title>
+            <Card.Title style={timingStyles.textSise}> Час подачі авто по місту до 30 хвилин</Card.Title>
             <Card.Text>
             за відсутності заторів
             </Card.Text>

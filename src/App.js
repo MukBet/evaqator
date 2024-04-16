@@ -38,10 +38,8 @@ function App() {
         </a> */}
         <Header></Header>
         <HeaderImageList images={images} />
+        <Lafeta></Lafeta>
         <div className="Flex-container">
-          <div className="Flex-container-item">
-            <Lafeta></Lafeta>
-          </div>
           <div className="Flex-container-item">
             <Timing></Timing>
           </div>
