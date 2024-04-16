@@ -18,6 +18,9 @@ const orderStyles = {
     header: {
       background: 'linear-gradient(145deg, #2c3e50, #34495e)',
       color: 'white',
+      fontSize: '2.0rem',
+      fontWeight: 'bold',
+      color: '#b4e7be',
     },
     contentRow: {
       border: '1px solid #a5e1e1',

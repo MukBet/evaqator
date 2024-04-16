@@ -21,17 +21,17 @@ function AdditionalService() {
     <>
     <div style={additionalStyles.container}>
       <div class="intro-service">
-        <h1>Додаткові послуги &#9832;</h1>
+        <h1>Додаткові послуги <img style={{width:'32px',height:'32px',}} src='https://symbl.cc/i/webp/d6/b84d80cec675b4229b9b7f6a2ea2c1.webp'></img></h1>
       </div>
       <div style={{ textAlign:'left'}}>
         <h4 class="info-row-service">
-        &#9752;Вантажні перевезення по місту та по Україні.
+        <span style={{color:"green", marginRight: "5px"}}>&#128667;</span> Вантажні перевезення по місту та по Україні.
         </h4>
         <h4 class="info-row-service">
-        &#9752;Квартирні, офісні переїзди, доставка різних товарів.
+        <span style={{color:"green", marginRight: "5px"}}>&#128667;</span> Квартирні, офісні переїзди, доставка різних товарів.
         </h4>
         <h4 class="info-row-service">
-        &#9752;Вантажопідйомність до 1,5 тонн.
+        <span style={{color:"green", marginRight: "5px"}}>&#128667;</span> Вантажопідйомність до 1,5 тонн.
         </h4>
       </div>
       <br></br>
