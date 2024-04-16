@@ -37,12 +37,12 @@ function Price() {
             </h4>
           </div>
           <br></br>
-          <Card style={{ width: '27rem', background: '#2c3e50', color:'white', textAlign:'justify' }} className="info-block">
+          <Card style={{ width: '27rem', background: '#2c3e50', color:'white', textAlign:'center' }} className="info-block">
             <Card.Body>
             <div class="intro">
               <h2 style={{color:'#e0f5e4'}}>Оренда лафети</h2>
             </div><br></br>
-            <div style={{ textAlign:'justify'}}>
+            <div style={{ textAlign:'left'}}>
               <h4 class="info-row-price">
               &#10148;<span style={{marginLeft:'15px'}}>4м/2,2м.</span>
               </h4>

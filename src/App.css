@@ -42,6 +42,19 @@
     align-items: center;
   }
 }
+@media (max-width: 500px) {
+  .top-container {
+    display: inline-block;
+    gap: 20px; /* Расстояние между элементами */
+    justify-content: center; /* Выравнивание элементов по центру горизонтально */
+    align-items: center; /* Выравнивание элементов по центру вертикально (если нужно) */
+  }
+
+  .top-container-item {
+    max-width: 500px; /* Максимальная ширина блока */
+    margin-bottom: 15px; /* Отступ снизу */
+  }
+}
 
 .Flex-container {
   display: flex;

@@ -8,7 +8,7 @@ function Header() {
             <div className='top-panel'>
               <div className="">
                 <h1>Евакуатор Миколаїв</h1>
-                <p className="phone-number">+380...</p>
+                <p className="phone-number">+380 (50) 851 88 34</p>
               </div>
             </div>
             <div className="info-section">

@@ -36,9 +36,17 @@ function App() {
         >
           Learn React
         </a> */}
-        <Header></Header>
-        <HeaderImageList images={images} />
-        <Lafeta></Lafeta>
+        <div className="top-container">
+          <div className="top-container-item">
+            <Header></Header>
+          </div>
+          <div className="top-container-item">
+            <HeaderImageList images={images} />
+          </div>
+          <div className="top-container-item">
+            <Lafeta></Lafeta>
+          </div>
+        </div>
         <div className="Flex-container">
           <div className="Flex-container-item">
             <Timing></Timing>
