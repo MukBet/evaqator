@@ -3,12 +3,10 @@ import Card from 'react-bootstrap/Card';
 const priceStyles = {
   container: {
     justifyContent: 'center',
-    padding: '15px', // Отступы для контейнера, чтобы картинки не касались краев экрана
-    paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
     overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
     borderRadius: '15px', /* Скругленные углы для контейнера галереи */
     borderColor: 'black',
-    width: '27rem',
+    width: '25rem',
   },
   textSise: {
     fontSize: '1.5rem', /* Большой размер шрифта для заголовка */
@@ -37,7 +35,7 @@ function Price() {
             </h4>
           </div>
           <br></br>
-          <Card style={{ width: '27rem', background: '#2c3e50', color:'white', textAlign:'center' }} className="info-block">
+          <Card style={{ width: '25rem', background: '#2c3e50', color:'white', textAlign:'center' }} className="info-block">
             <Card.Body>
             <div class="intro">
               <h2 style={{color:'#e0f5e4'}}>Оренда лафети</h2>

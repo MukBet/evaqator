@@ -6,7 +6,7 @@ const additionalStyles = {
     paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
     overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
     borderRadius: '15px', /* Скругленные углы для контейнера галереи */
-    width: '27rem',
+    width: '25rem',
     color: '#054685',
     fontWeight: 1000,
     FontFace: 'Arial, sans-serif' 
