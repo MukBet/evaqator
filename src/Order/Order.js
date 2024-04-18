@@ -9,7 +9,7 @@ const orderStyles = {
       paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
       borderRadius: '15px', /* Скругленные углы для контейнера галереи */
-      width: '30rem',
+      width: '27rem',
       backgroundColor: '#a5e1e1',
     },
     textSise: {
@@ -17,7 +17,6 @@ const orderStyles = {
     },
     header: {
       background: 'linear-gradient(145deg, #2c3e50, #34495e)',
-      color: 'white',
       fontSize: '2.0rem',
       fontWeight: 'bold',
       color: '#b4e7be',

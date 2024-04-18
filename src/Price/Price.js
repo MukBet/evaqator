@@ -8,7 +8,7 @@ const priceStyles = {
     overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
     borderRadius: '15px', /* Скругленные углы для контейнера галереи */
     borderColor: 'black',
-    width: '30rem',
+    width: '27rem',
   },
   textSise: {
     fontSize: '1.5rem', /* Большой размер шрифта для заголовка */
@@ -50,7 +50,7 @@ function Price() {
               &#10148;<span style={{marginLeft:'15px'}}>Навантаження до 2 тонн.</span> 
               </h4>
               <h4 class="info-row-price">
-              &#10148;<span style={{marginLeft:'15px'}}>800 грн /доба , залогова сума 200<span>&#128178;</span> (повертається при отриманні лафети).</span> 
+              &#10148;<span style={{marginLeft:'15px'}}>800 грн /доба , залогова сума 200<span>&#36;</span> (повертається при отриманні лафети).</span> 
               </h4>
               <h4 class="info-row-price">
               &#10148;<span style={{marginLeft:'15px'}}>Паспортні дані.</span> 
