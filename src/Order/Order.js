@@ -9,7 +9,7 @@ const orderStyles = {
       paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
       borderRadius: '15px', /* Скругленные углы для контейнера галереи */
-      width: '27rem',
+      width: '25rem',
       backgroundColor: '#a5e1e1',
     },
     textSise: {
