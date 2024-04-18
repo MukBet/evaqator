@@ -6,7 +6,7 @@ const additionalStyles = {
     paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
     overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
     borderRadius: '15px', /* Скругленные углы для контейнера галереи */
-    width: '30rem',
+    width: '27rem',
     color: '#054685',
     fontWeight: 1000,
     FontFace: 'Arial, sans-serif' 
@@ -21,7 +21,7 @@ function AdditionalService() {
     <>
     <div style={additionalStyles.container}>
       <div class="intro-service">
-        <h1>Додаткові послуги <img style={{width:'32px',height:'32px',}} src='https://symbl.cc/i/webp/d6/b84d80cec675b4229b9b7f6a2ea2c1.webp'></img></h1>
+        <h1>Додаткові послуги <img style={{width:'32px',height:'32px',}} src='https://symbl.cc/i/webp/d6/b84d80cec675b4229b9b7f6a2ea2c1.webp' alt="!"></img></h1>
       </div>
       <div style={{ textAlign:'left'}}>
         <h4 class="info-row-service">

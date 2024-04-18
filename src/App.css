@@ -44,6 +44,7 @@
 }
 @media (max-width: 500px) {
   .top-container {
+    width: 100%;
     display: inline-block;
     gap: 20px; /* Расстояние между элементами */
     justify-content: center; /* Выравнивание элементов по центру горизонтально */
@@ -51,8 +52,19 @@
   }
 
   .top-container-item {
+    width: 100%;
     max-width: 500px; /* Максимальная ширина блока */
     margin-bottom: 15px; /* Отступ снизу */
+  }
+  
+  .Flex-container {
+
+    width: 100%;
+  }
+  
+  .Flex-container-item {
+
+    width: 100%;
   }
 }
 

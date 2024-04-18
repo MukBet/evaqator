@@ -9,7 +9,7 @@ const orderStyles = {
       paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
       borderRadius: '15px', /* Скругленные углы для контейнера галереи */
-      width: '30rem',
+      width: '27rem',
       backgroundColor: '#a5e1e1',
     },
     textSise: {
@@ -17,7 +17,6 @@ const orderStyles = {
     },
     header: {
       background: 'linear-gradient(145deg, #2c3e50, #34495e)',
-      color: 'white',
       fontSize: '2.0rem',
       fontWeight: 'bold',
       color: '#b4e7be',
@@ -44,8 +43,7 @@ function Order() {
         <ListGroup.Item style={orderStyles.contentRow}>3. Назвати марку авто ( до 2,5 тонн )</ListGroup.Item>
         <ListGroup.Item style={orderStyles.contentRow}>4. Вказати чи є складність завантаження</ListGroup.Item>
         <ListGroup.Item style={orderStyles.contentRow}>5. Назвати адресу куди потрібно доставити</ListGroup.Item>
-        <ListGroup.Item style={orderStyles.contentRow}>6. Назвати марку авто ( до 2,5 тонн )</ListGroup.Item>
-        <ListGroup.Item style={orderStyles.contentRow}>7. Очікувати на евакуатор</ListGroup.Item>
+        <ListGroup.Item style={orderStyles.contentRow}>6. Очікувати на евакуатор</ListGroup.Item>
       </ListGroup>
     </Card>
     </div>
