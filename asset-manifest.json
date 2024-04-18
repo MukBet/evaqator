@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/evaqator/static/css/main.c4b2995a.css",
-    "main.js": "/evaqator/static/js/main.4ad9918a.js",
+    "main.css": "/evaqator/static/css/main.c66eef71.css",
+    "main.js": "/evaqator/static/js/main.dde07bc1.js",
     "static/js/453.fd5d4e14.chunk.js": "/evaqator/static/js/453.fd5d4e14.chunk.js",
     "static/media/service_c.webp": "/evaqator/static/media/service_c.1bd37c158e65fedfc2d2.webp",
     "static/media/service_b.webp": "/evaqator/static/media/service_b.76eac4e63922b0d5d8ac.webp",
     "static/media/service_a.webp": "/evaqator/static/media/service_a.5f881ef12303346a4868.webp",
+    "static/media/usd_examples.webp": "/evaqator/static/media/usd_examples.31ad802d5c1ad95beafd.webp",
     "index.html": "/evaqator/index.html",
-    "main.c4b2995a.css.map": "/evaqator/static/css/main.c4b2995a.css.map",
-    "main.4ad9918a.js.map": "/evaqator/static/js/main.4ad9918a.js.map",
+    "main.c66eef71.css.map": "/evaqator/static/css/main.c66eef71.css.map",
+    "main.dde07bc1.js.map": "/evaqator/static/js/main.dde07bc1.js.map",
     "453.fd5d4e14.chunk.js.map": "/evaqator/static/js/453.fd5d4e14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4b2995a.css",
-    "static/js/main.4ad9918a.js"
+    "static/css/main.c66eef71.css",
+    "static/js/main.dde07bc1.js"
   ]
 }
