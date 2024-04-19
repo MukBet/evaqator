@@ -1,3 +1,52 @@
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,14 +84,14 @@
     transform: rotate(360deg);
   }
 }
-@media (max-width: 500px) { /* Максимальная ширина для мобильных устройств */
+@media (max-width: 450px) { /* Максимальная ширина для мобильных устройств */
   .App {
     /* Здесь могут быть стили специфичные для мобильных устройств */
     justify-content: center;
     align-items: center;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .top-container {
     width: 100%;
     display: inline-block;
@@ -53,7 +102,7 @@
 
   .top-container-item {
     width: 100%;
-    max-width: 500px; /* Максимальная ширина блока */
+    max-width: 450px; /* Максимальная ширина блока */
     margin-bottom: 15px; /* Отступ снизу */
   }
   
@@ -82,3 +131,4 @@
   max-width: 500px; /* Максимальная ширина блока */
   margin-bottom: 15px; /* Отступ снизу */
 }
+
