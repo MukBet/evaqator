@@ -10,9 +10,9 @@
   .lafeta-line {
     font-family: 'Tenor Sans', sans-serif;
     
-font-weight: initial;
+  font-weight: initial;
     color: rgb(182, 49, 49); /* Цвет текста */
-    margin: 10px 0; /* Отступы между строками */
+    margin: 00px 0; /* Отступы между строками */
   }
   
   .lafeta-first {
@@ -44,10 +44,17 @@ font-weight: initial;
         justify-content: center;
         flex-direction: column; /* Элементы теперь расположены вертикально */
         align-items: center; /* Центрирование элементов по горизонтали */
-        padding: 15px; /* Отступы для контейнера, чтобы картинки не касались краев экрана*/
+        padding: 0px; /* Отступы для контейнера, чтобы картинки не касались краев экрана*/
         padding-top: 10px;/* Добавляем прокрутку, если картинки не помещаются*/
         overflow: hidden; /* Скрываем всё, что выходит за пределы блока */
         gap: 0px; /* Промежуток между ...*/
+        width: '20rem',
+      }
+
+      .lafeta-device {
+        justify-content: center;
+        padding-left: 10px; /* Отступы для контейнера, чтобы картинки не касались краев экрана*/
+        padding-right: 10px; /* Отступы для контейнера, чтобы картинки не касались краев экрана*/
       }
   
     }
