@@ -85,7 +85,7 @@
     padding: 0;
     margin: 0;
     text-align: center; /* Центрирование текста */
-    font-family: 'Roboto', sans-serif; /* Семейство шрифтов Roboto, доступно на Google Fonts */
+    /*font-family: 'Roboto', sans-serif; /* Семейство шрифтов Roboto, доступно на Google Fonts */
     /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Тень для создания "поднятого" эффекта */
     border-radius: 0 0 40px 40px; /* Скругленные углы */
   }

@@ -84,14 +84,14 @@
     transform: rotate(360deg);
   }
 }
-@media (max-width: 500px) { /* Максимальная ширина для мобильных устройств */
+@media (max-width: 450px) { /* Максимальная ширина для мобильных устройств */
   .App {
     /* Здесь могут быть стили специфичные для мобильных устройств */
     justify-content: center;
     align-items: center;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .top-container {
     width: 100%;
     display: inline-block;
@@ -102,7 +102,7 @@
 
   .top-container-item {
     width: 100%;
-    max-width: 500px; /* Максимальная ширина блока */
+    max-width: 450px; /* Максимальная ширина блока */
     margin-bottom: 15px; /* Отступ снизу */
   }
   
