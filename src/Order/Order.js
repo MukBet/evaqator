@@ -5,12 +5,11 @@ const orderStyles = {
     container: {
       display: 'flex',
       justifyContent: 'center',
-      padding: '10px', // Отступы для контейнера, чтобы картинки не касались краев экрана
+      padding: '15px', // Отступы для контейнера, чтобы картинки не касались краев экрана
       paddingTop: '0px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
       borderRadius: '15px', /* Скругленные углы для контейнера галереи */
-      width: '24rem',
-     /* paddingRright: '5px',  Отступы для контейнера, чтобы картинки не касались краев экрана*/
+      width: '25rem',
       backgroundColor: '#a5e1e1',
     },
     textSise: {
