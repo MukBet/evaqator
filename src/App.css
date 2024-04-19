@@ -91,7 +91,7 @@
     align-items: center;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 450px) { 
   .top-container {
     width: 100%;
     display: inline-block;
