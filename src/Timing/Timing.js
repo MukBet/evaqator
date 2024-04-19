@@ -5,7 +5,7 @@ const timingStyles = {
       display: 'flex',
       justifyContent: 'center',
       padding: '15px', // Отступы для контейнера, чтобы картинки не касались краев экрана
-      paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
+      marginTop: '10px', // Добавляем прокрутку, если картинки не помещаются
       overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
       borderRadius: '15px', /* Скругленные углы для контейнера галереи */
     },
@@ -22,7 +22,7 @@ function Timing() {
           bg="info"
           key="Info"
           text='white'
-          style={{ width: '27rem' }}
+          style={{ width: '25rem' }}
           className="mb-2"
         >
           {/* <Card.Header>Header</Card.Header> */}
