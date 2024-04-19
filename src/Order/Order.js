@@ -5,7 +5,6 @@ const orderStyles = {
     container: {
       display: 'flex',
       justifyContent: 'center',
-      width: '25rem',
       padding: '5px', // Отступы для контейнера, чтобы картинки не касались краев экрана
       // 
       // paddingTop: '0px', // Добавляем прокрутку, если картинки не помещаются
