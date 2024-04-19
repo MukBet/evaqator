@@ -63,6 +63,7 @@
 } */
 
 .App-header {
+  
  /* min-height: 30vh;
   display: flex;
   flex-direction: column;
@@ -114,6 +115,10 @@
   .Flex-container-item {
 
     width: 100%;
+  }
+  .App-header{
+    justify-content: center;
+    width: 25rem;
   }
 }
 
