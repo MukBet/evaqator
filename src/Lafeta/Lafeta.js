@@ -7,7 +7,7 @@ function Lafeta() {
     <>
     <div className='lafeta-device'>
       <div className="lafeta">
-      <Card style={{ width: '25rem', background: '#2c3e50'  }} className="info-block">
+      <Card style={{ width: '90%', background: '#2c3e50'  }} className="info-block">
         <Card.Body>
           <div style={{textAlign:'center'}} className="lafeta-line lafeta-first" >Додаткова лафета в наявності</div>
         
@@ -19,12 +19,12 @@ function Lafeta() {
           <Card.Link href="#">Another Link</Card.Link> */}
         </Card.Body>
       </Card>
-      <Card style={{ width: '25rem', background: '#2c3e50'  }} className="info-block">
+      <Card style={{ width: '90%', background: '#2c3e50'  }} className="info-block">
         <Card.Body>
           <div style={{textAlign:'center'}} className="lafeta-line lafeta-second">Оренда лафети</div>
         </Card.Body>
       </Card>
-      <Card style={{ width: '25rem', background: '#2c3e50'  }} className="info-block">
+      <Card style={{ width: '90%', background: '#2c3e50'  }} className="info-block">
         <Card.Body>
           <div style={{textAlign:'center'}} className="lafeta-line lafeta-third mb-2 ">Вантажні перевезення</div>
         </Card.Body>
