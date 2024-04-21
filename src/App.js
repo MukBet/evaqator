@@ -36,17 +36,17 @@ function App() {
         >
           Learn React
         </a> */}
-        {/* <div className="top-container">
-          <div className="top-container-item">
+        <div className="main-container">
+          <div className="main-container-block">
             <Header></Header>
           </div>
-          <div className="top-container-item">
+          <div className="main-container-block">
             <HeaderImageList images={images} />
           </div>
-          <div className="top-container-item">
+          <div className="main-container-block">
             <Lafeta></Lafeta>
           </div>
-        </div> */}
+        </div>
         <div className="main-container">{/* Flex-container*/}
           <div className="main-container-block">{/* Flex-container-item*/}
             <Timing></Timing>

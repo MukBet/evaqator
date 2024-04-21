@@ -2,10 +2,13 @@ import './Price.css';
 import Card from 'react-bootstrap/Card';
 const priceStyles = {
   container: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    padding: '15px',
+    display: 'block', // Блочное отображение
+    margin: '20px auto', // Автоматический отступ с обеих сторон для центрирования
+    maxWidth: '600px', // Максимальная ширина контейнера
+    width: '100%', // Ширина контейнера (занимает 100% родительского элемента, но не более maxWidth)
+    padding: '15px', // Отступы внутри контейнера
+    borderRadius: '10px', // Закругленные углы
+    boxSizing: 'border-box' // Включает padding в общую ширину
   },
   textSise: {
     fontSize: '1.5rem', /* Большой размер шрифта для заголовка */
@@ -15,12 +18,12 @@ const priceStyles = {
 function Price() {
       return (
         <>
-        <div style={priceStyles.container}>
+        <div style={priceStyles.container} >
           <div class="">
             <h2>Ціни</h2>
           </div>
-          <div style={{ textAlign:'left'}}>
-            <h4 class="info-row-price" style={{ fontWeight:'bold', border:'2px solid red', borderRadius:'10px', padding:'10px'}}>
+          <div style={{ textAlign:'left',}} >
+            <h4 class="info-row-price" style={{ fontWeight:'bold', border:'2px solid red', borderRadius:'10px', padding: '10px 10px 10px 20px'}}>
             &#9757; По місту 500 грн замовлення + 25 грн / км  (до 100 км).
             </h4>
             <h4 class="info-row-price">
@@ -34,7 +37,7 @@ function Price() {
             </h4>
           </div>
           <br></br>
-          <div style={{ background: '#2c3e50', color:'white', textAlign:'center', 'padding': '10px', justifyContent: 'center', borderRadius:'10px'}} className="">
+          <div style={{ background: '#2c3e50', color:'white', textAlign:'center', padding: '10px 10px 10px 20px', justifyContent: 'center', borderRadius:'10px'}} className="">
             <div>
             <div class="intro">
               <h2 style={{color:'#e0f5e4'}}>Оренда лафети</h2>

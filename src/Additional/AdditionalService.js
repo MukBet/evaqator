@@ -2,10 +2,12 @@ import './AdditionalService.css';
 const additionalStyles = {
   container: {
     
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    padding: '15px',
+    display: 'block', // Блочное отображение
+    margin: '20px auto', // Автоматический отступ с обеих сторон для центрирования
+    maxWidth: '600px', // Максимальная ширина контейнера
+    width: '100%', // Ширина контейнера (занимает 100% родительского элемента, но не более maxWidth)
+    padding: '15px', // Отступы внутри контейнера
+    boxSizing: 'border-box', // Включает padding в общую ширину
     color: '#054685',
     fontWeight: 1000,
   },
@@ -23,13 +25,13 @@ function AdditionalService() {
       </div>
       <div style={{ textAlign:'left'}}>
         <h4 class="info-row-service">
-        <span style={{color:"green", marginRight: "5px"}}>&#128667;</span> Вантажні перевезення по місту та по Україні.
+        <span style={{color:"green", textAlign:'center', marginRight: "5px"}}>&#128667;</span> Вантажні перевезення по місту та по Україні.
         </h4>
         <h4 class="info-row-service">
-        <span style={{color:"green", marginRight: "5px"}}>&#128667;</span> Квартирні, офісні переїзди, доставка різних товарів.
+        <span style={{color:"green", textAlign:'center', marginRight: "5px"}}>&#128667;</span> Квартирні, офісні переїзди, доставка різних товарів.
         </h4>
         <h4 class="info-row-service">
-        <span style={{color:"green", marginRight: "5px"}}>&#128667;</span> Вантажопідйомність до 1,5 тонн.
+        <span style={{color:"green", textAlign:'center', marginRight: "5px"}}>&#128667;</span> Вантажопідйомність до 1,5 тонн.
         </h4>
       </div>
       <br></br>

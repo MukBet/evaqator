@@ -5,11 +5,12 @@
     background: linear-gradient(145deg, #2c3e50, #34495e); /* Градиент для добавления глубины */
     color: #ffffff; /* Белый цвет текста для лучшей читаемости */
     padding: 10px; /* Отступы вокруг контента */
-    margin: 3ch;
-    border-radius: 0 0 10px 10px; /* Скругленные углы */
+    margin: 1ch;
+    border-radius: 10px 10px 10px 10px; /* Скругленные углы */
     text-align: center; /* Центрирование текста */
     /*font-family: 'Roboto', sans-serif; /* Семейство шрифтов Roboto, доступно на Google Fonts */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Тень для создания "поднятого" эффекта */
+    margin-top: 165px;
   }
   
   h1 {
@@ -20,7 +21,7 @@
   
   .phone-number {
     /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
-    font-size: 4.5rem; /* Выделение номера телефона */
+    font-size: 3.5rem; /* Выделение номера телефона */
     margin-bottom: 5px;
     margin-top: 5px;
   }
@@ -45,17 +46,17 @@
   
   /* Можно добавить медиа-запросы для адаптивного дизайна */
   @media (max-width: 768px) {
-    .info-section {
+    /* .info-section {
       padding: 30px;
     }
     
     h1 {
       font-size: 2rem;
-    }
+    }*/
   
     .phone-number {
-      font-size: 1.25rem;
-    }
+      font-size: 2.25rem;
+    } 
   }
   /* Медиа-запрос для планшетов */
   /* @media (max-width: 768px) {
@@ -66,14 +67,18 @@
   } */
 
   /* Медиа-запрос для мобильных устройств */
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
 
-    .top-section{
-      padding-top: 10px;
-    }
+     .info-section{
+      margin-top: 90px;
+      padding-top: 20px;
+    } 
   }
   
   .top-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: fixed; /* Фиксируем панель */
     top: 0; /* Располагаем панель вверху страницы */
     left: 0; /* Выравниваем панель по левому краю */
@@ -89,3 +94,20 @@
     /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Тень для создания "поднятого" эффекта */
     border-radius: 0 0 40px 40px; /* Скругленные углы */
   }
+
+  .fixed-top-center {
+    position: fixed; /* Фиксированное позиционирование */
+    top: 0; /* Прижимаем элемент к верху страницы */
+    left: 50%; /* Позиционирование от левого края на 50% ширины вьюпорта */
+    transform: translateX(-50%); /* Смещение элемента обратно на 50% его собственной ширины по горизонтали */
+    width: 100%; /* Задаем фиксированную ширину */
+    height: auto; /* Задаем фиксированную высоту */
+    background: linear-gradient(145deg, #2c3e50, #34495e); /* Градиент для добавления глубины */
+    border-radius: 0 0 40px 40px; /* Скругленные углы */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Тень для лучшей видимости */
+    z-index: 1000; /* Убедимся, что элемент будет поверх других элементов */
+    padding: 10px; /* Внутренние отступы */
+    box-sizing: border-box; /* Граница и паддинг включены в ширину/высоту */
+    color: #ffffff; /* Белый цвет текста для лучшей читаемости */
+  }
+  
