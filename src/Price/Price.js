@@ -2,12 +2,10 @@ import './Price.css';
 import Card from 'react-bootstrap/Card';
 const priceStyles = {
   container: {
+    display: 'flex',
+    flexDirection: 'column',
     justifyContent: 'center',
-    padding: '15px', // Отступы для контейнера, чтобы картинки не касались краев экрана
-    overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
-    borderRadius: '5px', /* Скругленные углы для контейнера галереи */
-    borderColor: 'black',
-    width: '24rem',
+    padding: '15px',
   },
   textSise: {
     fontSize: '1.5rem', /* Большой размер шрифта для заголовка */
@@ -18,7 +16,7 @@ function Price() {
       return (
         <>
         <div style={priceStyles.container}>
-          <div class="intro">
+          <div class="">
             <h2>Ціни</h2>
           </div>
           <div style={{ textAlign:'left'}}>
@@ -36,8 +34,8 @@ function Price() {
             </h4>
           </div>
           <br></br>
-          <Card style={{ width: '24rem', background: '#2c3e50', color:'white', textAlign:'center', 'padding': '', justifyContent: 'center'}} className="">
-            <Card.Body>
+          <div style={{ background: '#2c3e50', color:'white', textAlign:'center', 'padding': '10px', justifyContent: 'center', borderRadius:'10px'}} className="">
+            <div>
             <div class="intro">
               <h2 style={{color:'#e0f5e4'}}>Оренда лафети</h2>
             </div><br></br>
@@ -55,8 +53,8 @@ function Price() {
               &#10148;<span style={{marginLeft:'15px'}}>Паспортні дані.</span> 
               </h4>
             </div>
-            </Card.Body>
-          </Card>
+            </div>
+          </div>
           
         </div>
       </>

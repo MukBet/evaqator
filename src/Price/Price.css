@@ -3,16 +3,3 @@
     margin-bottom: 20px;
 }
 
-.dollar-element {
-    display: block; /* Элемент должен быть блочным для управления размерами */
-    width: 32px; /* Ширина одного символа */
-    height: 44px; /* Высота картинки, например 100px */
-    /* background-image: url('./img/usd_examples.webp'); /* Путь к вашей картинке */
-    background-repeat: no-repeat; /* Не повторяем картинку */
-    background-position: 0 0; /* Позиция первого символа */
-    background-size: 196px 44px; /* Общий размер картинки */
-}
-
-.dollar-element-five {
-  background-position: -32px 0; /* Сдвигаем фон на ширину одного символа влево */
-}

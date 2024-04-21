@@ -36,7 +36,7 @@ function App() {
         >
           Learn React
         </a> */}
-        <div className="top-container">
+        {/* <div className="top-container">
           <div className="top-container-item">
             <Header></Header>
           </div>
@@ -46,18 +46,18 @@ function App() {
           <div className="top-container-item">
             <Lafeta></Lafeta>
           </div>
-        </div>
-        <div className="Flex-container">
-          <div className="Flex-container-item">
+        </div> */}
+        <div className="main-container">{/* Flex-container*/}
+          <div className="main-container-block">{/* Flex-container-item*/}
             <Timing></Timing>
           </div>
-          <div className="Flex-container-item">
+          <div className="main-container-block">{/* Flex-container-item*/}
             <Order></Order>
           </div>
-          <div className="Flex-container-item">
+          <div className="main-container-block">{/* Flex-container-item*/}
             <Price></Price>
           </div>
-          <div className="Flex-container-item">
+          <div className="main-container-block">{/* Flex-container-item*/}
             <AdditionalService></AdditionalService>
           </div>
         </div>
