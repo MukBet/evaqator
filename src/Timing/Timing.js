@@ -4,10 +4,9 @@ const timingStyles = {
     container: {
       display: 'flex',
       justifyContent: 'center',
-      padding: '15px', // Отступы для контейнера, чтобы картинки не касались краев экрана
-      marginTop: '10px', // Добавляем прокрутку, если картинки не помещаются
-      overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
-      borderRadius: '15px', /* Скругленные углы для контейнера галереи */
+      padding: '15px',
+      borderRadius: '15px',
+      // width: '25rem'
     },
     textSise: {
       fontSize: '2.5rem', /* Большой размер шрифта для заголовка */
@@ -22,7 +21,7 @@ function Timing() {
           bg="info"
           key="Info"
           text='white'
-          style={{ width: '25rem' }}
+          style={{  }}
           className="mb-2"
         >
           {/* <Card.Header>Header</Card.Header> */}

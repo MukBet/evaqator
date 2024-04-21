@@ -1,15 +1,13 @@
 import './AdditionalService.css';
 const additionalStyles = {
   container: {
+    
+    display: 'flex',
+    flexDirection: 'column',
     justifyContent: 'center',
-    padding: '15px', // Отступы для контейнера, чтобы картинки не касались краев экрана
-    paddingTop: '10px', // Добавляем прокрутку, если картинки не помещаются
-    overflow: 'hidden', /* Скрываем всё, что выходит за пределы блока */
-    borderRadius: '15px', /* Скругленные углы для контейнера галереи */
-    width: '25rem',
+    padding: '15px',
     color: '#054685',
     fontWeight: 1000,
-    FontFace: 'Arial, sans-serif' 
   },
   textSise: {
     fontSize: '1.5rem', /* Большой размер шрифта для заголовка */

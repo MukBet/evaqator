@@ -86,25 +86,24 @@
   }
 }
 @media (max-width: 450px) { /* Максимальная ширина для мобильных устройств */
-  .App {
-    /* Здесь могут быть стили специфичные для мобильных устройств */
+  /* .App {
     justify-content: center;
     align-items: center;
-  }
+  } */
 }
 @media (max-width: 450px) { 
-  .top-container {
+  /* .top-container {
     width: 100%;
     display: inline-block;
-    gap: 20px; /* Расстояние между элементами */
-    justify-content: center; /* Выравнивание элементов по центру горизонтально */
-    align-items: center; /* Выравнивание элементов по центру вертикально (если нужно) */
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center;
   }
 
   .top-container-item {
     width: 100%;
-    max-width: 450px; /* Максимальная ширина блока */
-    margin-bottom: 15px; /* Отступ снизу */
+    max-width: 450px;
+    margin-bottom: 15px;
   }
   
   .Flex-container {
@@ -119,7 +118,7 @@
   .App-header{
     justify-content: center;
     width: 25rem;
-  }
+  } */
 }
 
 .Flex-container {
@@ -136,4 +135,26 @@
   max-width: 500px; /* Максимальная ширина блока */
   margin-bottom: 15px; /* Отступ снизу */
 }
+
+.main-container {
+  width: 100%; /* Ширина контейнера равна 100% ширины экрана */
+  overflow: hidden; /* Скрывает любое содержимое, выходящее за рамки */
+  box-sizing: border-box; /* Включает padding и border в ширину элемента */
+  padding: 5px; /* Отступы внутри контейнера */
+}
+
+.main-container-block{
+  width: 100%; /* Делаем блоки на всю ширину контейнера */
+  margin: 5px 0; /* Отступы для блоков */
+  text-align: center; /* Центрирование текста в блоках */
+  background-color: #b5e1e1; /* Фон блоков, для наглядности */
+  padding: 0px; /* Паддинг внутри блоков */
+}
+
+
+
+
+
+
+
 
