@@ -15,10 +15,9 @@ import AdditionalService from './Additional/AdditionalService.js';
 function App() {
 
   const images = [
-    { id: 1, src: serviceImageA, alt: 'Описание изображения 1' },
-    { id: 2, src: serviceImageB, alt: 'Описание изображения 2' },
-    { id: 3, src: serviceImageC, alt: 'Описание изображения 3' },
-    // Добавьте больше картинок по аналогии
+    { id: 1, src: serviceImageA, alt: 'Евакуація авто у Миколаєві' },
+    { id: 2, src: serviceImageB, alt: 'Допомога з авто у Миколаєві' },
+    { id: 3, src: serviceImageC, alt: 'Швидкий пыдїзд по  Миколаєву' },
   ];
 
   return (
