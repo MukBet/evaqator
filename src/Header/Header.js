@@ -3,9 +3,12 @@ import './Header.css'; // Импортируем стили
 
 function Header() {
     return (
-        <section >
-          <div className="top-section">
-            <div className='top-panel'>
+        <section style={{
+          display: 'flex',
+          justifyContent: 'center',
+          padding: '15px',}} >
+          <div className="">
+            <div className='fixed-top-center' style={{}}>
               <div className="">
                 <h1>Евакуатор Миколаїв</h1>
                 <p className="phone-number">+380 (50) 851 88 34</p>

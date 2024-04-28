@@ -40,7 +40,7 @@ function Order() {
       <ListGroup variant="flush" style={orderStyles.content}>
         <ListGroup.Item style={orderStyles.contentRow}>1. Зателефонувати за номером +380508518834</ListGroup.Item>
         <ListGroup.Item style={orderStyles.contentRow}>2. Вказати точну адресу куди потрібен евакуатор</ListGroup.Item>
-        <ListGroup.Item style={orderStyles.contentRow}>3. Назвати марку авто ( до 3,5 тонн )</ListGroup.Item>
+        <ListGroup.Item style={orderStyles.contentRow}>3. Назвати марку авто (до 3,5 тонн)</ListGroup.Item>
         <ListGroup.Item style={orderStyles.contentRow}>4. Вказати чи є складність завантаження</ListGroup.Item>
         <ListGroup.Item style={orderStyles.contentRow}>5. Назвати адресу куди потрібно доставити</ListGroup.Item>
         <ListGroup.Item style={orderStyles.contentRow}>6. Очікувати на евакуатор</ListGroup.Item>

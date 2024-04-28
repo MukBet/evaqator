@@ -36,28 +36,28 @@ function App() {
         >
           Learn React
         </a> */}
-        <div className="top-container">
-          <div className="top-container-item">
+        <div className="main-container">
+          <div className="main-container-block">
             <Header></Header>
           </div>
-          <div className="top-container-item">
+          <div className="main-container-block">
             <HeaderImageList images={images} />
           </div>
-          <div className="top-container-item">
+          <div className="main-container-block">
             <Lafeta></Lafeta>
           </div>
         </div>
-        <div className="Flex-container">
-          <div className="Flex-container-item">
+        <div className="main-container">{/* Flex-container*/}
+          <div className="main-container-block">{/* Flex-container-item*/}
             <Timing></Timing>
           </div>
-          <div className="Flex-container-item">
+          <div className="main-container-block">{/* Flex-container-item*/}
             <Order></Order>
           </div>
-          <div className="Flex-container-item">
+          <div className="main-container-block">{/* Flex-container-item*/}
             <Price></Price>
           </div>
-          <div className="Flex-container-item">
+          <div className="main-container-block">{/* Flex-container-item*/}
             <AdditionalService></AdditionalService>
           </div>
         </div>
