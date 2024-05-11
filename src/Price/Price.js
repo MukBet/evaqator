@@ -24,7 +24,7 @@ function Price() {
           </div>
           <div style={{ textAlign:'left',}} >
             <h4 class="info-row-price" style={{ fontWeight:'bold', border:'2px solid red', borderRadius:'10px', padding: '10px 10px 10px 20px'}}>
-            &#9757; По місту 500 грн замовлення + 25 грн / км  (до 100 км).
+            &#9757; По місту 500 грн замовлення + 25 грн / км в обидві сторони (до 100 км).
             </h4>
             <h4 class="info-row-price">
             &#9757; По Україні та більше 100 км 22 грн / км в обидві сторони.
