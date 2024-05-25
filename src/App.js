@@ -11,6 +11,7 @@ import Order from './Order/Order.js';
 import Timing from './Timing/Timing.js';
 import Price from './Price/Price.js';
 import AdditionalService from './Additional/AdditionalService.js';
+import Metatag from './Metatag/Metatag.js';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App merriweather-light">
       <header className="App-header">
+        <Metatag></Metatag>
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
