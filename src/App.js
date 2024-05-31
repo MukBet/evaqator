@@ -18,7 +18,7 @@ function App() {
   const images = [
     { id: 1, src: serviceImageA, alt: 'Евакуація авто у Миколаєві' },
     { id: 2, src: serviceImageB, alt: 'Допомога з авто у Миколаєві' },
-    { id: 3, src: serviceImageC, alt: 'Швидкий пыдїзд по  Миколаєву' },
+    { id: 3, src: serviceImageC, alt: 'Швидкий підїзд по  Миколаєву' },
   ];
 
   return (
