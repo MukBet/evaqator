@@ -22,7 +22,7 @@ function HeaderImageList({ images }) {
     return (
         <div style={galleryStyles.container}>
             {images.map(image => (
-            <HeaderImageItem key={image.id} src={image.src} alt={image.alt} style={galleryStyles.image} />
+            <HeaderImageItem key={image.id} src={image.src} alt={image.alt} style={galleryStyles.image} loading="lazy" />
         ))}
     </div>
     );
