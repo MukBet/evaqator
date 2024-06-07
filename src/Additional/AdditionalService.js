@@ -24,27 +24,27 @@ function AdditionalService() {
         <h1>Додаткові послуги <img style={{width:'32px',height:'32px',}} src='https://symbl.cc/i/webp/d6/b84d80cec675b4229b9b7f6a2ea2c1.webp' alt="!"></img></h1>
       </div>
       <div style={{ textAlign:'left'}}>
-        <h4 class="info-row-service">
+        <h2 class="info-row-service">
         <span style={{color:"green", textAlign:'center', marginRight: "5px"}}>&#128667;</span> Вантажні перевезення по місту та по Україні.
-        </h4>
-        <h4 class="info-row-service">
+        </h2>
+        <h2 class="info-row-service">
         <span style={{color:"green", textAlign:'center', marginRight: "5px"}}>&#128667;</span> Квартирні, офісні переїзди, доставка різних товарів.
-        </h4>
-        <h4 class="info-row-service">
+        </h2>
+        <h2 class="info-row-service">
         <span style={{color:"green", textAlign:'center', marginRight: "5px"}}>&#128667;</span> Вантажопідйомність до 1,5 тонн.
-        </h4>
+        </h2>
       </div>
       <br></br>
       <div class="intro-service">
-        <h3>Ціни &#9759;</h3>
+        <h2>Ціни &#9759;</h2>
       </div>
       <div style={{ textAlign:'left'}}>
-        <h4 class="info-row-service" style={{textAlign:'center', textDecoration: 'underline'}}>
+        <h3 class="info-row-service" style={{textAlign:'center', textDecoration: 'underline'}}>
         По місту 300 грн / год
-        </h4>
-        <h4 class="info-row-service" style={{textAlign:'center'}}>
+        </h3>
+        <h3 class="info-row-service" style={{textAlign:'center'}}>
         За межами міста та по Україні 10 грн / км в обидві сторони
-        </h4>
+        </h3>
       </div>
     </div>
     </>
