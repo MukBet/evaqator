@@ -23,10 +23,10 @@ function Timing() {
     
     <div style={timingStyles.container}>
      <Card
-          bg="info"
+          bg=""
           key="Info"
           text='black'
-          style={{  }}
+          style={{backgroundColor:'#e3eaec'}}
           className="mb-2"
         >
           {/* <Card.Header>Header</Card.Header> */}
