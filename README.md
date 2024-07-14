@@ -72,3 +72,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### npm run deploy
 задеплоить на гите
 https://mukbet.github.io/evaqator/
+
+
+"start": "react-scripts start",
+ "start": "npm-run-all --parallel serve dev",
+
+"start": "concurrently \"npm run server\" \"npm run client\"",
+"server": "node server.js",
+"client": "react-scripts start",
+
+    "start:prod": "NODE_ENV=production node server.js",
+    "start:staging": "cross-env NODE_ENV=staging node server.js",
+    "deploy": "gh-pages -d build",
+    "serve": "serve -s build -l 3001",
+    "deploy:staging": "npm run build && npm run start:staging"
+
+    to deelete
+        "npm-run-all": "^4.1.5",
+        "concurrently": "^8.2.2",
+        "cross-env": "^7.0.3",
+        "express": "^4.19.2",
+        "http-proxy-middleware": "^3.0.0",

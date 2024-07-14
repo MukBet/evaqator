@@ -1,5 +1,4 @@
 import './Price.css'; 
-import Card from 'react-bootstrap/Card';
 const priceStyles = {
   container: {
     display: 'block', // Блочное отображение
